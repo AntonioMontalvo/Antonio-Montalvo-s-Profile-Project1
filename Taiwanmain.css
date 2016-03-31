@@ -1,0 +1,87 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url('http://free-images.gatag.net/images/lb201205211600.jpg');
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position:  absolute;;
+  top:150px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 60px;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #fff;
+}
+
+
+.thumbnail{
+
+ width: 97%;
+ margin:  auto;
+ background-color: #f5f5f5;
+ color: #bdc3c7;
+ list-style: none;
+
+    background-color: none;
+    border-bottom: 0 solid #dbdbdb;
+    font-size:0.75em;
+    color: #bdc3c7;
+}
+.showcase h2 {
+    color: #393c3d;
+    font-size: 24px;
+}
+.showcase p{
+    font-size: 15px;
+    margin-bottom:30px;
+}
+
+footer {
+  font-size: 1.0em;
+  text-align: center;
+  clear:both;
+  padding-top: 30px;
+  color: #bdc3c7;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  background-color:  #fefefe;
+}
