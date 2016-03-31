@@ -1,0 +1,153 @@
+/*************************
+GENERAL
+**************************/
+
+body{
+font-family: 'Lora', sans-serif;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding:5% 5%;
+}
+
+a {
+  text-decoration:none;
+}
+
+img{
+  max-width: 100%;
+}
+
+p{
+  text-align:center;
+  color: #d2b74b;
+}
+
+
+/*************************
+HEADING
+**************************/
+
+
+header {
+  float: right;
+  margin:0 0 10px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+
+#logo {
+  text-align:center;
+  margin:0;
+}
+
+h1 {
+  font-family: 'Lora', sans-serif;
+  margin: 15px 0;
+  font-size: 2.0em;
+  font-weight:normal;
+  line-height: 0.8em;
+}
+
+
+/*************************
+NAVIGATION
+**************************/
+
+
+
+nav {
+  text-align:center;
+  padding:10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+ list-style: none;
+  margin: 0 10px;
+  padding: 0;
+ }
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight:800;
+  padding: 25px 25px;
+}
+
+
+
+
+/*************************
+PAGE: PHOTOGRAPHY
+**************************/
+
+
+#gallery {
+  margin: 0;
+  padding: 5%;
+  list-style: none;
+}
+
+#gallery li {
+  width:80%;
+  margin: 10%;
+  background-color: #000008;
+}
+
+
+
+/*************************
+COLORS
+**************************/
+
+/*site body*/
+body {
+  background-color: #000008;
+}
+
+/*green Header*/
+header {
+  background:#2f8b3f ;
+  border-color:##41904f;
+}
+
+  /*nav background  on mobile*/
+nav {
+  background:#0f3c16;
+}
+
+  /*logo text*/
+h1{
+  color: #d2b74b;
+}
+
+  /* links */
+a{
+  color:#d2b74b;
+}
+
+/* nav link */
+
+
+/* selected nav link */
+nav a.selected {
+  color:#d3b45b;
+}
+
+nav a:hover {
+  color:#883e17;
+}
+
+/*************************
+FOOTER
+**************************/
+
+footer .copyright {
+  top: -8px;
+  font-size: .75em;
