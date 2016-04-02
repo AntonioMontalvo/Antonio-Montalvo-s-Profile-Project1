@@ -10,13 +10,19 @@
     float: left;
     color: #d2b74b;
   }
-
   #secondary {
+    width: 50%;
+    float: left;
+    color: #d2b74b;
+  }
+
+  /*#secondary {
     width: 50%;
     float: right;
     font-size:1.125em;
     color: #d2b74b;
   }
+  */
 
 
    /*************************
