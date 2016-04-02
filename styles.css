@@ -54,7 +54,6 @@ a:hover {
 .nav a:hover {
   color: white
 }
-
 header {
   text-align: center;
   background: url('images/StudioCity.jpg') no-repeat top center ;
@@ -74,7 +73,12 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
 }
 .tag {
   background-color: #222;
