@@ -70,20 +70,21 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 1px solid transparent;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: #222;
+  color: yellow;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 }
+
 .location {
   background-color: #222;
   color: yellow;
@@ -116,9 +117,6 @@ ul.skills {
   margin: 2px;
 }
 
-.skills li:nth-child(odd) {
-  background: #0399ff;
-}
 
 footer {
   width: 100%;
@@ -139,6 +137,9 @@ footer ul {
 
 footer ul li {
   display: inline-block;
+}
+footer ul li :hover {
+  color: #6633ff;
 }
 
 a.social {

@@ -51,8 +51,8 @@
 
 .thumbnail{
 
- width: 97%;
- margin:  auto;
+ width: 100%;
+ margin: inherit;
  background-color: #f5f5f5;
  color: #bdc3c7;
  list-style: none;
@@ -77,11 +77,4 @@ footer {
   clear:both;
   padding-top: 30px;
   color: #bdc3c7;
-}
-
-.social-icon {
-  width: 20px;
-  height: 20px;
-  margin: 0 5px;
-  background-color:  #fefefe;
 }
